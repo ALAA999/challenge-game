@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/Blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Defult_Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="     Defult Questions"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <RadioButton
+            android:id="@+id/math_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="     Math Questions"
+            android:textSize="25sp"
+            android:typeface="serif" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/line" />
+
+    <RadioGroup
+        android:id="@+id/readio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp">
+
+        <RadioButton
+            android:id="@+id/Same_Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="    Same Questions"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <RadioButton
+            android:id="@+id/Diffrent_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="    Diffrent Questions"
+            android:textSize="25sp"
+            android:typeface="serif" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:hint="Change Time(secounds)"
+        android:inputType="number" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/ready"
+        android:layout_width="150dp"
+        android:layout_height="30sp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="@color/white_blue"
+        app:cardCornerRadius="20sp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ready"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
