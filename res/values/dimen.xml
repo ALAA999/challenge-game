@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small">100dp</dimen>
+    <dimen name="small_image">30dp</dimen>
+    <dimen name="small_text">20sp</dimen>
+<!--Large Componamts-->
+    <dimen name="card_hight">60dp</dimen>
+    <dimen name="large_image">45dp</dimen>
+    <dimen name="large_text">30sp</dimen>
+</resources>
